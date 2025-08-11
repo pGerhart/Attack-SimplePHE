@@ -1,3 +1,11 @@
+// Package main implements the attack described in
+// "Password-Hardened Encryption Revisited" (ASIACRYPT 2025)
+// by Ruben Baecker, Paul Gerhart, and Dominique Schröder.
+//
+// This code is for research and reproducibility purposes only.
+//
+// Author: Paul Gerhart
+// License: MIT (see LICENSE file)
 package main
 
 import (
