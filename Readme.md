@@ -26,9 +26,8 @@ This repository contains:
 ### Usage
 
 1. Clone the repository.
-2. Run the attack simulation:
-   ```bash
-   go run attack.go
+2. Run the attack simulation: `
+   go run attack.go`
 3.	Inspect the test output to see the brute-forced passwords under semi-adaptive corruption.
 
 
