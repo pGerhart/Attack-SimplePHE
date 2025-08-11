@@ -1,7 +1,7 @@
 ## Password-Hardened Encryption Revisited — Attack Demonstration
 
 This repository contains an implementation demonstrating that the  
-[Virgil Security PHE (Password-Hardened Encryption) protocol](https://github.com/VirgilSecurity/virgil-phe-go)  
+[Virgil Security PHE (Password-Hardened Encryption) implementation](https://github.com/VirgilSecurity/virgil-phe-go)  
 can be broken in the **semi-adaptive corruption model**.
 
 The attack and its analysis are based on our paper:
