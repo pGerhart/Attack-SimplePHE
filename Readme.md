@@ -1,8 +1,8 @@
-# Password-Hardened Encryption Revisited — Attack Demonstration
+## Password-Hardened Encryption Revisited — Attack Demonstration
 
 This repository contains an implementation demonstrating that the  
 [Virgil Security PHE (Password-Hardened Encryption) protocol](https://github.com/VirgilSecurity/virgil-phe-go)  
-can be broken in the **semi-adaptive corruption model** compared to the static model.
+can be broken in the **semi-adaptive corruption model**.
 
 The attack and its analysis are based on our paper:
 
@@ -10,7 +10,7 @@ The attack and its analysis are based on our paper:
 > Ruben Baecker, Paul Gerhart, and Dominique Schröder  
 > ASIACRYPT 2025
 
-## Overview
+### Overview
 
 The original PHE protocol by Virgil Security is secure under **static corruption**,  
 where the adversary chooses which parties to corrupt before the protocol starts.  
@@ -23,12 +23,11 @@ This repository contains:
 - Test cases demonstrating the break.
 
 
-## Usage
+### Usage
 
 1. Clone the repository.
-2. Run the attack simulation:
-   ```bash
-   go run attack.go
+2. Run the attack simulation: `
+   go run attack.go`
 3.	Inspect the test output to see the brute-forced passwords under semi-adaptive corruption.
 
 
@@ -36,9 +35,9 @@ This repository contains:
 
 
 
-## Attribution & Licenses
+### Attribution & Licenses
 
-### Virgil Security PHE Go SDK (BSD-3-Clause)
+#### Virgil Security PHE Go SDK (BSD-3-Clause)
 
 This repo includes an adapted file derived from the Virgil Security PHE Go SDK:
 
@@ -52,7 +51,7 @@ for testing/reproduction. The original upstream project is:
 **Copyright (C) 2015–2019 Virgil Security Inc.**  
 Redistribution terms follow the BSD-3-Clause license. See `utils/utils.go` header.
 
-### Password List (SecLists)
+#### Password List (SecLists)
 
 This project includes the following password list for testing purposes:
 
@@ -62,12 +61,12 @@ This project includes the following password list for testing purposes:
 
 Please note: this list is used for **local testing only**. Follow the license terms if you redistribute it.
 
-### This Repository (MIT)
+#### This Repository (MIT)
 
 All original code in this repository is under the **MIT License**.
 
 
-## Responsible Use
+### Responsible Use
 
 - The code is for **research and reproducibility**.
 - Do not target third-party systems.
